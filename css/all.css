@@ -3,7 +3,7 @@
 :root{
   --primary-100: #F5FEE7;
   --primary-400: #57a203;
-  --neutral-0: #fff;
+  --neutral-white: #fff;
   --neutral-100: #f8f9fa;
   --neutral-300: #DEE2E6;
   --neutral-600: #6C757D;
@@ -59,7 +59,7 @@ a{
   color: var(--primary-400);
 }
 .text-white{
-  color: var(--neutral-0);
+  color: var(--neutral-white);
 }
 .text-center{
   text-align: center;
@@ -110,22 +110,21 @@ a{
 .ps-6{
   padding-left: 24px;
 }
-.px-8{
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 .py-8{
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.px-16{
+.py-16{
   padding-top: 64px;
   padding-bottom: 64px;
 }
 .pb-12{
   padding-bottom: 48px;
+}
+.border-bottom{
   border-bottom: 1px solid var(--neutral-300);
 }
+.border
 .d-inline-block{
   display: inline-block;
 }
@@ -163,4 +162,7 @@ a{
 }
 .story a{
   border-bottom: 1px solid ;
+}
+.story a:hover{
+  border-bottom: 0px solid ;
 }
